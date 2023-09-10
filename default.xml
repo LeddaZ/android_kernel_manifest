@@ -3,12 +3,11 @@
 
   <remote  name="aosp"
     fetch="https://android.googlesource.com/" />
-  <default revision="refs/tags/android-u-beta-5.2_r0.7"
+  <default revision="android-gs-raviole-5.10-android13-qpr3"
     remote="aosp" sync-j="4" />
   <remote  name="leddaz"
     fetch="https://github.com/LeddaZ/" />
 
-  <project path="aosp" name="android_kernel_gs" groups="partner" remote="leddaz" revision="common-tm"/>
   <project path="private/gs-google" name="android_kernel_gs" groups="partner" remote="leddaz" revision="tm">
     <linkfile dest="build.config" src="build.config.slider"/>
     <linkfile dest="build_slider.sh" src="build_slider.sh"/>
