@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
     fetch="https://android.googlesource.com/" />
-  <default revision="refs/tags/android-u-beta-5.3_r0.7"
+  <default revision="refs/tags/android-u-qpr1-beta-1_r0.7"
     remote="aosp" sync-j="4" />
   <remote  name="leddaz"
     fetch="https://github.com/LeddaZ/" />
