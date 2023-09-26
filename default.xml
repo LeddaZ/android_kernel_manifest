@@ -72,7 +72,7 @@
   <project path="private/google-modules/wlan/wcn6740/cnss2" name="kernel/google-modules/wlan/qcom/wcn6740/cnss2" groups="partner" />
   <project path="private/google-modules/wlan/wcn6740/wlan" name="kernel/google-modules/wlan/qcom/wcn6740/wlan" groups="partner" />
   <project path="private/google-modules/video/gchips" name="kernel/google-modules/video/gchips" groups="partner" />
-  <project path="build/kernel" name="kernel/build" groups="partner">
+  <project path="build/kernel" name="android_kernel_build" remote="leddaz" revision="udc" groups="partner">
     <linkfile dest="tools/bazel" src="kleaf/bazel.sh"/>
     <linkfile dest="WORKSPACE" src="kleaf/bazel.WORKSPACE"/>
     <linkfile dest="build/build.sh" src="build.sh"/>
