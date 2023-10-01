@@ -22,7 +22,7 @@
     <linkfile dest="update_symbol_list_slider-staging.sh" src="update_symbol_list_slider-staging.sh"/>
     <linkfile dest=".source_date_epoch_dir" src="."/>
   </project>
-  <project path="private/devices/google/bluejay" name="kernel/devices/google/bluejay" groups="partner,bluejay">
+  <project path="private/devices/google/bluejay" name="android_kernel_devices_google_bluejay" groups="partner,bluejay" remote="leddaz" revision="udc">
     <linkfile dest="build_bluejay.sh" src="build_bluejay.sh"/>
     <linkfile dest="update_symbol_list_bluejay-aosp.sh" src="update_symbol_list_bluejay-aosp.sh"/>
     <linkfile dest="update_symbol_list_bluejay-staging.sh" src="update_symbol_list_bluejay-staging.sh"/>
