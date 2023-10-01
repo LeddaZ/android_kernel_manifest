@@ -91,7 +91,7 @@
   </project>
   <project path="kernel/configs" name="kernel/configs" />
   <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="partner" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="partner" revision="main" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="partner" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="partner" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="partner">
