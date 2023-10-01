@@ -40,7 +40,7 @@
     <linkfile dest="update_symbol_list_felix-staging.sh" src="update_symbol_list_felix-staging.sh"/>
     <linkfile dest="private/gs-google/arch/arm64/boot/dts/google/devices/felix" src="dts"/>
   </project>
-  <project path="private/google-modules/aoc" name="android_kernel_google-modules_aoc" groups="partner" remote="leddaz" revision="udc" />
+  <project path="private/google-modules/aoc" name="kernel/google-modules/aoc" groups="partner" />
   <project path="private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="partner" />
   <project path="private/google-modules/display" name="android_kernel_google-modules_display" groups="partner" remote="leddaz" revision="udc" />
   <project path="private/google-modules/gpu" name="android_kernel_google-modules_gpu" groups="partner" remote="leddaz" revision="udc" />
@@ -61,13 +61,13 @@
   <project path="private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="partner" />
   <project path="private/google-modules/touch/goodix" name="kernel/google-modules/touch/goodix_touch" groups="partner" />
   <project path="private/google-modules/touch/focaltech" name="kernel/google-modules/touch/focaltech_touch" groups="partner" />
-  <project path="private/google-modules/touch/fts" name="android_kernel_google-modules_touch_fts" groups="partner" remote="leddaz" revision="udc" />
+  <project path="private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" groups="partner" />
   <project path="private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" groups="partner" />
   <project path="private/google-modules/touch/synaptics" name="kernel/google-modules/touch/synaptics_touch" groups="partner" />
   <project path="private/google-modules/uwb" name="kernel/google-modules/uwb" groups="uwb" />
   <project path="private/google-modules/uwb-diags" name="kernel/google-modules/uwb-diags" groups="uwb" />
   <project path="private/google-modules/nfc" name="kernel/google-modules/nfc" groups="partner" />
-  <project path="private/google-modules/wlan/bcmdhd4389" name="android_kernel_google-modules_wlan_bcmdhd4389" groups="partner" remote="leddaz" revision="udc" />
+  <project path="private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" groups="partner" />
   <project path="private/google-modules/wlan/wlan_ptracker" name="kernel/google-modules/wlan/wlan_ptracker" groups="partner" />
   <project path="private/google-modules/wlan/wcn6740/cnss2" name="kernel/google-modules/wlan/qcom/wcn6740/cnss2" groups="partner" />
   <project path="private/google-modules/wlan/wcn6740/wlan" name="kernel/google-modules/wlan/qcom/wcn6740/wlan" groups="partner" />
@@ -91,7 +91,7 @@
   </project>
   <project path="kernel/configs" name="kernel/configs" />
   <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="partner" revision="main" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="partner" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="partner" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="partner" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="partner">
