@@ -7,6 +7,9 @@
     remote="aosp" sync-j="4" />
   <remote  name="leddaz"
     fetch="https://github.com/LeddaZ/" />
+  <remote  name="hentai"
+    fetch="https://github.com/hentaiOS-Devices/"
+    revision="refs/heads/Ursamoon" />
 
   <project path="private/gs-google" name="android_kernel_gs" groups="partner" remote="leddaz" revision="udc">
     <linkfile dest="build.config" src="build.config.slider"/>
@@ -72,7 +75,7 @@
   <project path="private/google-modules/wlan/wcn6740/cnss2" name="kernel/google-modules/wlan/qcom/wcn6740/cnss2" groups="partner" />
   <project path="private/google-modules/wlan/wcn6740/wlan" name="kernel/google-modules/wlan/qcom/wcn6740/wlan" groups="partner" />
   <project path="private/google-modules/video/gchips" name="kernel/google-modules/video/gchips" groups="partner" />
-  <project path="build/kernel" name="android_kernel_build" remote="leddaz" revision="udc" groups="partner">
+  <project path="build/kernel" name="android_kernel_build" remote="leddaz" revision="udc-bluejay" groups="partner">
     <linkfile dest="tools/bazel" src="kleaf/bazel.sh"/>
     <linkfile dest="WORKSPACE" src="kleaf/bazel.WORKSPACE"/>
     <linkfile dest="build/build.sh" src="build.sh"/>
@@ -106,4 +109,5 @@
   <project path="external/stardoc" name="platform/external/stardoc" groups="partner"/>
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="partner"/>
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" groups="partner" />
+  <project path="device/google/bluejay-kernel" name="device_google_bluejay-kernel" remote="hentai" />
 </manifest>
